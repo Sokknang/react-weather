@@ -1,11 +1,11 @@
 import React from 'react';
 
-const dank = () => {
+const SignUp = () => {
     return(
         <div className="App">
-            <h1>SighUp Page</h1>
+            <h1>SignUp Page</h1>
         </div>
     )
 }
 
-export default dank;
+export default SignUp;

@@ -8,16 +8,16 @@ import {
 const NavBar = () => {
     return(
         <div className="App">
-    <ReactBootStrap.Navbar collapseOnSelect expand="xl" bg="danger" variant="dark">
-  <ReactBootStrap.Navbar.Brand href="#home">WEATHER BOIS HOURS</ReactBootStrap.Navbar.Brand>
+    <ReactBootStrap.Navbar collapseOnSelect expand="xl" bg="primary" variant="dark">
+  <ReactBootStrap.Navbar.Brand href="#home">WEATHER APP</ReactBootStrap.Navbar.Brand>
   <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
     <ReactBootStrap.Nav className="mr-auto"> 
     <Link to="/features">
     <ReactBootStrap.Nav.Link href="#features">NEWS & VIDEOS</ReactBootStrap.Nav.Link>
     </Link>
-    <Link to="/pricing">
-    <ReactBootStrap.Nav.Link href="#pricing">MAP</ReactBootStrap.Nav.Link>
+    <Link to="/map">
+    <ReactBootStrap.Nav.Link href="#map">MAP</ReactBootStrap.Nav.Link>
     </Link>
       <ReactBootStrap.NavDropdown title="MORE" id="collasible-nav-dropdown">
         <ReactBootStrap.NavDropdown.Item href="#action/3.1">NEWS UPDATE</ReactBootStrap.NavDropdown.Item>
@@ -28,12 +28,12 @@ const NavBar = () => {
       </ReactBootStrap.NavDropdown>
     </ReactBootStrap.Nav>
     <ReactBootStrap.Nav>
-    <Link to="/deets">
-    <ReactBootStrap.Nav.Link href="#deets">LogIn</ReactBootStrap.Nav.Link>
+    <Link to="/login">
+    <ReactBootStrap.Nav.Link href="#login">LogIn</ReactBootStrap.Nav.Link>
     </Link>
-    <Link to="/dankmemes">
-    <ReactBootStrap.Nav.Link eventKey={2} href="#memes">
-        SighUp
+    <Link to="/signup">
+    <ReactBootStrap.Nav.Link eventKey={2} href="#signup">
+        SignUp
       </ReactBootStrap.Nav.Link>
     </Link>
     </ReactBootStrap.Nav>

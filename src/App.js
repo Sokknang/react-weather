@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 import * as ReactBootStrap from "react-bootstrap";
-import DankMemes from "./Components/DankMemes";
+import SighUp from "./Components/SighUp";
 import Features from "./Components/Features";
-import Pricing from "./Components/Pricing";
-import MoreDeets from "./Components/MoreDeets";
+import Map from "./Components/Map";
+import LogIn from "./Components/LogIn";
 import NavBar from "./Components/Navbar"
 import {
   BrowserRouter as Router,
@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
         <Router>
-        <NavBar />
+        <NavBar/>
  
 
         {/* A <Switch> looks through its children <Route>s and
@@ -27,18 +27,19 @@ function App() {
           <Route path="/features" component={Features}>
               <Features />
           </Route>
-          <Route path="/pricing" component={Pricing}>
-            <Pricing />
+          <Route path="/map" component={Map}>
+            <Map />
           </Route>
-          <Route path="/deets" component={MoreDeets}>
-            <MoreDeets />
+          <Route path="/login" component={LogIn}>
+            <LogIn />
           </Route>
-          <Route path="/dankmemes" component={DankMemes}>
-            <DankMemes />
+          <Route path="/signup" component={SighUp}>
+            <SighUp />
           </Route>
         </Switch>
-    </Router>
+      </Router>
     </div>
+    
   );
 }
 
