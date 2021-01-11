@@ -3,7 +3,7 @@ import React from 'react';
 const MoreDeets = () => {
     return(
         <div className="App">
-            <h1>MoreDeets HOURS</h1>
+            <h1>LogIn Page</h1>
         </div>
     )
 }

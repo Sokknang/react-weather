@@ -3,7 +3,7 @@ import React from 'react';
 const Pricing = () => {
     return(
         <div className="App">
-            <h1>Pricing HOURS</h1>
+            <h1>WORLD MAP</h1>
         </div>
     )
 }

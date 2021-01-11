@@ -9,19 +9,19 @@ const NavBar = () => {
     return(
         <div className="App">
     <ReactBootStrap.Navbar collapseOnSelect expand="xl" bg="danger" variant="dark">
-  <ReactBootStrap.Navbar.Brand href="#home">THICC BOIS HOURS</ReactBootStrap.Navbar.Brand>
+  <ReactBootStrap.Navbar.Brand href="#home">WEATHER BOIS HOURS</ReactBootStrap.Navbar.Brand>
   <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
     <ReactBootStrap.Nav className="mr-auto"> 
     <Link to="/features">
-    <ReactBootStrap.Nav.Link href="#features">Features</ReactBootStrap.Nav.Link>
+    <ReactBootStrap.Nav.Link href="#features">NEWS & VIDEOS</ReactBootStrap.Nav.Link>
     </Link>
     <Link to="/pricing">
-    <ReactBootStrap.Nav.Link href="#pricing">Pricing</ReactBootStrap.Nav.Link>
+    <ReactBootStrap.Nav.Link href="#pricing">MAP</ReactBootStrap.Nav.Link>
     </Link>
-      <ReactBootStrap.NavDropdown title="YEET" id="collasible-nav-dropdown">
-        <ReactBootStrap.NavDropdown.Item href="#action/3.1">Action</ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item href="#action/3.2">Another action</ReactBootStrap.NavDropdown.Item>
+      <ReactBootStrap.NavDropdown title="MORE" id="collasible-nav-dropdown">
+        <ReactBootStrap.NavDropdown.Item href="#action/3.1">NEWS UPDATE</ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="#action/3.2">NEWS UPDATE</ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Item href="#action/3.3">Something</ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Divider />
         <ReactBootStrap.NavDropdown.Item href="#action/3.4">Separated link</ReactBootStrap.NavDropdown.Item>
@@ -29,11 +29,11 @@ const NavBar = () => {
     </ReactBootStrap.Nav>
     <ReactBootStrap.Nav>
     <Link to="/deets">
-    <ReactBootStrap.Nav.Link href="#deets">More deets</ReactBootStrap.Nav.Link>
+    <ReactBootStrap.Nav.Link href="#deets">LogIn</ReactBootStrap.Nav.Link>
     </Link>
     <Link to="/dankmemes">
     <ReactBootStrap.Nav.Link eventKey={2} href="#memes">
-        Dank memes
+        SighUp
       </ReactBootStrap.Nav.Link>
     </Link>
     </ReactBootStrap.Nav>
