@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import * as ReactBootStrap from "react-bootstrap";
+//import * as ReactBootStrap from "react-bootstrap";
 import SighUp from "./Components/SighUp";
 import Features from "./Components/Features";
 import Map from "./Components/Map";
